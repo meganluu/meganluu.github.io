@@ -6,7 +6,8 @@
 .container{
     height: 100vh;
     width: 100%;
-    background-image: url(images/background.png);
+    background-color: #fff3f2;
+    /* background-image: url(images/background.png); */
     background-position: center;
     background-size: cover;
 
@@ -35,26 +36,31 @@ nav ul li a{
     text-decoration: none;
     color: #333;
     font-size: 20px;
+    font-family: "Courier New";
 }
 
 nav ul li a:hover{
     text-decoration: underline;
+    color: darkgrey; 
 }
 
 .content h1{
-    padding-left: 50px;
-    font-size: 60px;
+    padding-left: 170px;
+    font-size: 50px;
     font-weight: 100;
+    font-family: "Montserrat";
     margin-top: 24px;
     margin-bottom: 15px;
+    font-weight: 300px;
     color: #232d60;
 }
 
 .content p{
-    padding-left: 50px;
-    font-size: 20px;
+    padding-left: 170px;
+    font-size: 18px;
+    font-family: "Montserrat";
     color: #6a7199;
-    max-width: 600px;
+    max-width: 550px;
     align-items: center;
     justify-content: center;
 }
