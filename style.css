@@ -3,15 +3,18 @@
     padding: 0;
 
 }
+body{
+    background-color: #f7efeb;
+}
 .container{
     height: 100vh;
     width: 100%;
-    background-color: #fff3f2;
     /* background-image: url(images/background.png); */
     background-position: center;
     background-size: cover;
 
 }
+
 .navbar{
     width: 100%;
     height: 15vh;
@@ -19,9 +22,14 @@
     display: flex;
     align-items: center;
 }
+
+.logo{
+    width: 80px;
+
+}
 nav{
     flex: 1;
-    padding-left: 300px;
+    padding-left: 35%;
 }
 
 nav ul li{
@@ -47,6 +55,17 @@ nav ul li a:hover{
 .content h1{
     padding-left: 170px;
     font-size: 50px;
+    font-weight: 100;
+    font-family: "Montserrat";
+    margin-top: 24px;
+    margin-bottom: 15px;
+    font-weight: 300px;
+    color: #232d60;
+}
+
+.content h2{
+    padding-left: 170px;
+    font-size: 25px;
     font-weight: 100;
     font-family: "Montserrat";
     margin-top: 24px;
@@ -87,6 +106,7 @@ nav ul li a:hover{
 .social-links a{
     text-decoration: none;
     color: grey;
+    font-family: "Courier New";
     padding-right: 30px;
     font-size: 18px;
 }
